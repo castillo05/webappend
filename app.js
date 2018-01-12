@@ -28,7 +28,7 @@ app.get('/prueba',function(req,res){
     res.status(200).send({message:'Bienvenido a www.jorgecastillomoreno.com'});
 });
 
-
+app.get(express.static(path.join(__dirname,'client')));
 //rutas
 app.use('/api',user_routes);
 
