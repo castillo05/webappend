@@ -3,7 +3,7 @@
 var fs = require('fs');
 var path=require('path');
 var bcrypt=require('bcrypt-nodejs');
-var mongoosePaginate=require('mongoose-Pagination');
+// var mongoosePaginate=require('mongoose-Pagination');
 
 
 var User= require('../models/user');
